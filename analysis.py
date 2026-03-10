@@ -132,17 +132,11 @@ def generate_nasa_report(summary, raw_data):
     return os.path.abspath("index.html")
 
 if __name__ == "__main__":
-    # 1. סריקה אמיתית
-    news_data = scrape_security_news()
+    # הרצת כל הלוגיקה...
+    raw_data = scrape_security_news()
+    summary = process_security_data(raw_data)
+    report_path = generate_nasa_report(summary, raw_data)
     
-    # 2. עיבוד
-    summary = process_security_data(news_data)
-    
-    # 3. יצירת דוח
-    path = generate_nasa_report(summary, news_data)
-    
-    print(f">>> ANALYSIS COMPLETE. REPORT: {path}")
-    
-    # במחשב האישי - יפתח אוטומטית
-    if not os.environ.get('GITHUB_ACTIONS'):
-        webbrowser.open('file://' + path)
+    # הפקודה ש"מכריחה" את המחשב לפתוח את החלון:
+    import webbrowser
+    webbrowser.open('file://' + report_path)
