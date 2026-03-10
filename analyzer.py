@@ -1,12 +1,11 @@
-# OSN Global Security Data Analyzer
-# A tool to analyze word frequency in security reports.
+# Main entry point for the security analysis
+from src.core import process_security_data
+from src.utils import log_info
 
-def analyze_trends(data):
-    words = data.split()
-    frequency = {}
-    for word in words:
-        frequency[word] = frequency.get(word, 0) + 1
-    return sorted(frequency.items(), key=lambda x: x[1], reverse=True)
+def main():
+    log_info("Starting Security Analysis Engine...")
+    results = process_security_data()
+    print(f"Analysis Complete: {len(results)} events processed.")
 
-report = "Middle East security trends show increased activity in global monitoring."
-print("Top Trends:", analyze_trends(report))
+if __name__ == "__main__":
+    main()
