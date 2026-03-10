@@ -1,0 +1,49 @@
+name: Deploy Security Intelligence Report
+
+on:
+  # הפעלה בכל Push לשרת
+  push:
+    branches: [ "main", "master" ]
+  # מאפשר הפעלה ידנית מהלשונית Actions
+  workflow_dispatch:
+  # אופציונלי: הרצה אוטומטית בכל יום בשעה 08:00 בבוקר
+  schedule:
+    - cron: '0 8 * * *'
+
+# הרשאות נחוצות לפרסום ב-GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Execute Scraper & Analysis
+        run: python3 analysis.py
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Report Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # מעלה את הקובץ index.html שנוצר בתיקייה הראשית
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
