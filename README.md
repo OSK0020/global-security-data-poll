@@ -1,53 +1,15 @@
-Global Security Data Analysis 🛡️
+# Global Security Data Analysis
 
-פרויקט זה נועד לנתח נתוני אבטחה גלובליים, לזהות דפוסים של איומי סייבר ולהפיק דוחות מפורטים.
+A professional modular project with exactly 20 files. 
+Includes automated testing and manual execution via GitHub Actions.
 
-מבנה הפרויקט (20 קבצים)
+## 🛠 Manual Execution
+1. Go to the **Actions** tab in GitHub.
+2. Select **Manual Security Analysis** from the list.
+3. Click **Run workflow**.
 
-הפרויקט מחולק בצורה מודולרית כדי לאפשר תחזוקה קלה והרחבה עתידית:
-
-README.md - קובץ זה.
-
-.github/workflows/pipeline.yml - אוטומציה של בדיקות וניתוח.
-
-requirements.txt - רשימת ספריות חיצוניות.
-
-.gitignore - הגדרת קבצים שאינם לגיטהאב.
-
-LICENSE - רישיון הפרויקט.
-
-main.py - נקודת הכניסה הראשית לתוכנה.
-
-config.py - הגדרות קונפיגורציה.
-
-src/fetcher.py - מודול משיכת נתונים.
-
-src/processor.py - מודול עיבוד נתונים ראשוני.
-
-src/analyzer.py - לוגיקת ניתוח אבטחה.
-
-src/exporter.py - ייצוא תוצאות לקבצים.
-
-utils/logger.py - ניהול רישום לוגים.
-
-utils/helpers.py - פונקציות עזר כלליות.
-
-utils/validators.py - אימות תקינות נתונים.
-
-data/raw_incidents.json - נתוני דוגמה גולמיים.
-
-data/geo_mapping.json - מיפוי גיאוגרפי של איומים.
-
-tests/test_core.py - בדיקות יחידה לליבת המערכת.
-
-tests/test_utils.py - בדיקות לפונקציות העזר.
-
-docs/architecture.md - הסבר על ארכיטקטורת המערכת.
-
-docs/user_guide.md - מדריך למשתמש הקצה.
-
-הרצה
-
-כדי להריץ את הפרויקט, השתמשו בפקודה:
-
-python main.py
+## 📁 Structure
+- `src/`: Core logic modules.
+- `tests/`: Automated unit tests.
+- `.github/workflows/`: Automation pipeline.
+- `requirements.txt`: Project dependencies.
