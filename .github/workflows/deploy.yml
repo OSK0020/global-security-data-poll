@@ -10,6 +10,11 @@ on:
   schedule:
     - cron: '0 8 * * *'
 
+# === התיקון: הגדרה גלובלית לכל הקובץ שמכריחה שימוש ב-Node 24 ===
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+# ================================================================
+
 # הרשאות נחוצות לפרסום ב-GitHub Pages
 permissions:
   contents: read
@@ -19,11 +24,6 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
-    # === הנה התוספת שמעלימה את האזהרה הצהובה ===
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-    # ===========================================
       
     steps:
       - name: Checkout Code
