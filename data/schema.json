@@ -1,7 +1,0 @@
-{
-  "type": "object",
-  "properties": {
-    "id": {"type": "integer"},
-    "threat_level": {"type": "string"}
-  }
-}
