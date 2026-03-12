@@ -1,5 +1,6 @@
 import unittest
 import os
+import feedparser
 import webbrowser
 import requests
 from bs4 import BeautifulSoup
@@ -11,43 +12,47 @@ import datetime
 
 def scrape_security_news():
     """
-    סורק כותרות מאתר חדשות ומחלץ אירועים ביטחוניים
+    סורק נתונים מ-RSS Feed של חדשות עולמיות
     """
-    print(">>> INITIATING WEB SCRAPE: ACCESSING NEWS NODES...")
-    url = "https://www.reuters.com/world/" # דוגמה לאתר חדשות עולמי
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    print(">>> INITIATING RSS FEED ANALYSIS...")
+    
+    # כתובת ה-RSS של רויטרס (חדשות עולם)
+    rss_url = "https://www.reutersagency.com/feed/?best-topics=political-general&post_type=best"
     
     security_events = []
+    keywords = ['security', 'attack', 'military', 'cyber', 'war', 'threat', 'intelligence', 'conflict', 'missile', 'drone']
     
     try:
-        response = requests.get(url, headers=headers, timeout=10)
-        soup = BeautifulSoup(response.text, 'html.parser')
+        # קריאת ה-Feed
+        feed = feedparser.parse(rss_url)
         
-        # מחפש כותרות (הקוד הזה מותאם למבנה כללי של אתרי חדשות)
-        headlines = soup.find_all(['h2', 'h3'], limit=15)
-        
-        keywords = ['security', 'attack', 'military', 'cyber', 'war', 'threat', 'intelligence', 'conflict']
-        
-        for h in headlines:
-            text = h.get_text().strip()
-            # אם הכותרת מכילה מילת מפתח ביטחונית
-            if any(key in text.lower() for key in keywords):
-                threat_level = "High" if "attack" in text.lower() or "war" in text.lower() else "Medium"
+        # מעבר על הכתבות האחרונות (לרוב ה-20 האחרונות)
+        for entry in feed.entries:
+            title = entry.title
+            summary = entry.summary if 'summary' in entry else ""
+            combined_text = (title + " " + summary).lower()
+            
+            # בדיקה אם אחת ממילות המפתח מופיעה בכותרת או בתיאור
+            if any(key in combined_text for key in keywords):
+                threat_level = "High" if any(x in combined_text for x in ['attack', 'war', 'killed', 'explosion']) else "Medium"
+                
                 security_events.append({
                     "country": "Global Node",
                     "threat_level": threat_level,
-                    "type": "Live News Feed",
-                    "description": text[:60] + "..."
+                    "type": "RSS Live Alert",
+                    "description": title[:75] + "..."
                 })
-        
-        # אם לא מצאנו כלום, נחזיר נתוני גיבוי כדי שהמערכת לא תהיה ריקה
+
+        # אם ה-RSS ריק או לא נגיש, נשתמש בגיבוי
         if not security_events:
+            print(">>> NO RELEVANT SECURITY NEWS FOUND IN FEED.")
             return load_fallback_data()
             
+        print(f">>> SUCCESSFULLY EXTRACTED {len(security_events)} EVENTS.")
         return security_events
 
     except Exception as e:
-        print(f">>> CRITICAL ERROR DURING SCRAPE: {e}")
+        print(f">>> RSS READ ERROR: {e}")
         return load_fallback_data()
 
 def load_fallback_data():
