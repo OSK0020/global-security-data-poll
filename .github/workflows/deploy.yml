@@ -30,7 +30,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 feedparser
 
       - name: Execute Scraper & Analysis
         run: python3 analysis.py
