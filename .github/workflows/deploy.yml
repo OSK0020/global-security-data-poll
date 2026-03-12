@@ -19,6 +19,12 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    
+    # === הנה התוספת שמעלימה את האזהרה הצהובה ===
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    # ===========================================
+      
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
