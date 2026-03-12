@@ -3,8 +3,6 @@
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg) ![CI/CD](https://img.shields.io/badge/GitHub_Actions-NASA--Style_Reporting-orange) 
 
-# 🛰️ OSN - Global Security Intelligence Analysis
-> **Mission-Critical Security Data Processing & Visualization System**
 
 🚀 >>> [CLICK HERE TO ACCESS LIVE WAR ROOM](https://osk0020.github.io/global-security-data-analysis/) <<<
 
