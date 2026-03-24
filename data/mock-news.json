@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "timestamp": "14:02",
+    "date": "2026-03-24",
+    "source": "REUTERS",
+    "topic": "GEOPOLITICS",
+    "title": "Global Markets Shift as New Trade Agreements Solidify in Europe",
+    "brief": {
+      "point1": "European Central Bank announces unexpected interest rate stabilization.",
+      "point2": "Key tech sector stocks surge following the agreement signing.",
+      "point3": "Analysts predict a 15% reduction in cross-border tariffs by Q3."
+    },
+    "originalUrl": "#",
+    "severity": 2
+  },
+  {
+    "id": "2",
+    "timestamp": "12:15",
+    "date": "2026-03-24",
+    "source": "HACKER_NEWS",
+    "topic": "CYBER",
+    "title": "Zero-day Exploit Found in Major Cloud Infrastructure Provider",
+    "brief": {
+      "point1": "Critical vulnerability (CVSS 9.8) bypasses authentication protocols.",
+      "point2": "Over 40,000 enterprise instances currently at risk of exploitation.",
+      "point3": "Patch deployed, but threat actors actively scanning for unpatched servers."
+    },
+    "originalUrl": "#",
+    "severity": 5
+  },
+  {
+    "id": "3",
+    "timestamp": "09:45",
+    "date": "2026-03-24",
+    "source": "DEFENSE_NEWS",
+    "topic": "DEFENSE",
+    "title": "Next-Gen Drone Defense Systems Deployed Along Eastern Flank",
+    "brief": {
+      "point1": "Automated targeting arrays reduce interception time to under 4 seconds.",
+      "point2": "Deployment covers a 500km perimeter using swarm-detection algorithms.",
+      "point3": "System operates independently of traditional GPS networks to avoid jamming."
+    },
+    "originalUrl": "#",
+    "severity": 4
+  },
+  {
+    "id": "4",
+    "timestamp": "08:30",
+    "date": "2026-03-24",
+    "source": "AL_JAZEERA",
+    "topic": "GEOPOLITICS",
+    "title": "Tensions Rise Following Border Skirmishes in Contested Region",
+    "brief": {
+      "point1": "Unconfirmed reports of artillery fire exchanged across the DMZ.",
+      "point2": "Regional diplomats call for an emergency UN Security Council meeting.",
+      "point3": "Civilian populations in nearby villages ordered to evacuate temporarily."
+    },
+    "originalUrl": "#",
+    "severity": 4
+  },
+  {
+    "id": "5",
+    "timestamp": "06:10",
+    "date": "2026-03-24",
+    "source": "SPACE",
+    "topic": "ALL",
+    "title": "Orbital Station Detects Anomalous Signals from Deep Space",
+    "brief": {
+      "point1": "Radio telescope array intercepted non-random repeating bursts.",
+      "point2": "Source located approximately 4.2 light-years away.",
+      "point3": "Scientists rule out known pulsar or quasar activity profiles."
+    },
+    "originalUrl": "#",
+    "severity": 1
+  }
+]

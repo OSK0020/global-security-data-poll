@@ -48,11 +48,14 @@
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+    /* Custom crosshair cursor for tactical feel */
+    cursor: crosshair;
   }
 
-  /* Reset all default browser outlines to maintain cinematic immersion */
+  /* Ensure links and interactive elements also use crosshair or custom pointer */
   button, input, select, text-area, a {
     outline: none !important;
+    cursor: crosshair;
   }
   button:focus, input:focus, select:focus, text-area:focus, a:focus {
     outline: none !important;
