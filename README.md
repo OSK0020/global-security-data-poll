@@ -3,7 +3,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge) ![Next.js](https://img.shields.io/badge/Next.js-16+-000000?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-19+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-🚀>>> [CLICK HERE TO ACCESS LIVE WAR ROOM]([https://osk0020.github.io/global-security-data-analysis/](https://osk0020.github.io/global-security-data-poll/)) <<<
+🚀>>> [CLICK HERE TO ACCESS LIVE WAR ROOM]([https://osk0020.github.io/global-security-data-analysis/](https://osk0020.github.io/global-security-data-poll/) <<<
 
 ## 🌌 Overview
 **OSN (Global Intelligence)** is a unified security analysis framework designed to process global threat vectors and generate high-fidelity, command-center-style intelligence reports. The system integrates data processing and futuristic visualization into a single, high-performance execution flow.
