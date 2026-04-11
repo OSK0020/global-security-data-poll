@@ -1,0 +1,2336 @@
+{
+  "_schema_version": "2.1.0",
+  "_generated_at": "2026-04-11T20:00:00Z",
+  "_description": "OSINT Iranian Historical Archive. Contains critical milestones of the Islamic Republic, nuclear program developments, and regional proxy conflicts.",
+  "site": {
+    "name": "OSINT Analytics",
+    "tagline": "Intelligence Archive",
+    "url": "https://osint.local",
+    "founded": "2026",
+    "language": "en",
+    "timezone": "Asia/Jerusalem"
+  },
+  "archive_stats": {
+    "total_articles": 92,
+    "total_authors": 1,
+    "total_categories": 7,
+    "total_subcategories": 0,
+    "total_tags": 15
+  },
+  "categories": [
+    {
+      "id": "cat-01",
+      "slug": "nuclear-program",
+      "name": "Nuclear Program",
+      "description": "Developments regarding the Iranian nuclear program.",
+      "color": "#eab308",
+      "icon": "zap"
+    },
+    {
+      "id": "cat-02",
+      "slug": "geopolitics",
+      "name": "Geopolitics",
+      "description": "Diplomatic and foreign affairs.",
+      "color": "#3b82f6",
+      "icon": "globe"
+    },
+    {
+      "id": "cat-03",
+      "slug": "internal-affairs",
+      "name": "Internal Affairs",
+      "description": "Domestic politics, protests, and regime changes.",
+      "color": "#22c55e",
+      "icon": "users"
+    },
+    {
+      "id": "cat-04",
+      "slug": "military",
+      "name": "Military & Proxies",
+      "description": "IRGC activities, regional warfare, and proxy networks.",
+      "color": "#ef4444",
+      "icon": "crosshair"
+    },
+    {
+      "id": "cat-05",
+      "slug": "technology",
+      "name": "Technology",
+      "description": "Technological advancements and AI.",
+      "color": "#a855f7",
+      "icon": "cpu"
+    },
+    {
+      "id": "cat-06",
+      "slug": "global-events",
+      "name": "Global Events",
+      "description": "Worldwide cultural and significant events.",
+      "color": "#ec4899",
+      "icon": "star"
+    },
+    {
+      "id": "cat-07",
+      "slug": "economy",
+      "name": "Economy",
+      "description": "Global markets and financial forecasts.",
+      "color": "#14b8a6",
+      "icon": "trending-up"
+    }
+  ],
+  "authors": [
+    {
+      "id": "auth-01",
+      "name": "System Archiver",
+      "slug": "system-archiver",
+      "title": "Automated OSINT Collector"
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-0001",
+      "slug": "islamic-revolution-1979",
+      "category": "Internal Affairs",
+      "tags": [
+        "revolution",
+        "khomeini",
+        "shah"
+      ],
+      "headline": "The 1979 Islamic Revolution and the Fall of the Shah",
+      "subheadline": "Ayatollah Ruhollah Khomeini returns from exile, replacing 2,500 years of Persian monarchy with an Islamic Republic.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1979-02-11T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Crowds in Tehran"
+      },
+      "body": "On February 11, 1979, the Iranian military declared neutrality, effectively completing the collapse of Shah Mohammad Reza Pahlavi's regime. Ayatollah Ruhollah Khomeini assumed leadership, fundamentally altering the geopolitical landscape of the Middle East and establishing a theocratic state."
+    },
+    {
+      "id": "art-0002",
+      "slug": "iran-iraq-war-1980",
+      "category": "Military & Proxies",
+      "tags": [
+        "war",
+        "saddam",
+        "iraq"
+      ],
+      "headline": "Start of the Iran-Iraq War",
+      "subheadline": "Saddam Hussein invades Iran, sparking a brutal eight-year conflict.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1980-09-22T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Tanks cross the border"
+      },
+      "body": "Hoping to take advantage of post-revolution chaos, Iraq invaded Iran. The war turned into a bloody stalemate characterized by trench warfare and the use of chemical weapons, resulting in hundreds of thousands of casualties before a ceasefire was brokered in 1988."
+    },
+    {
+      "id": "art-0003",
+      "slug": "natanz-secret-nuclear-facility-revealed",
+      "category": "Nuclear Program",
+      "tags": [
+        "natanz",
+        "nuclear",
+        "iaea"
+      ],
+      "headline": "Revelation of the Natanz Nuclear Enrichment Facility",
+      "subheadline": "Exiled opposition group exposes secret Iranian nuclear sites.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2002-08-14T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Satellite imagery of Natanz"
+      },
+      "body": "The National Council of Resistance of Iran (NCRI) held a press conference in Washington D.C. revealing the existence of two secret nuclear sites: a uranium enrichment facility in Natanz and a heavy water facility in Arak. This sparked two decades of international crisis and sanctions."
+    },
+    {
+      "id": "art-0004",
+      "slug": "jcpoa-signing-2015",
+      "category": "Geopolitics",
+      "tags": [
+        "jcpoa",
+        "diplomacy",
+        "p5+1"
+      ],
+      "headline": "The Joint Comprehensive Plan of Action (JCPOA)",
+      "subheadline": "Iran and world powers reach an agreement limiting Iran's nuclear program in exchange for sanctions relief.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2015-07-14T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Diplomats in Vienna"
+      },
+      "body": "After years of intense negotiations, Iran and the P5+1 (US, UK, France, China, Russia, and Germany) reached the JCPOA. Iran agreed to dismantle much of its nuclear program and allow extensive international inspections in exchange for the lifting of economic sanctions."
+    },
+    {
+      "id": "art-0005",
+      "slug": "qasem-soleimani-assassination",
+      "category": "Military & Proxies",
+      "tags": [
+        "soleimani",
+        "irgc",
+        "quds-force",
+        "usa"
+      ],
+      "headline": "Assassination of General Qasem Soleimani",
+      "subheadline": "A US drone strike in Baghdad kills the powerful commander of the IRGC Quds Force.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2020-01-03T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Baghdad airport strike"
+      },
+      "body": "In a major escalation, an American drone strike at Baghdad International Airport killed Qasem Soleimani, the architect of Iran's proxy network across the Middle East. Iran retaliated with a ballistic missile attack on a US base in Iraq days later."
+    },
+    {
+      "id": "art-0006",
+      "slug": "mahsa-amini-protests",
+      "category": "Internal Affairs",
+      "tags": [
+        "protests",
+        "mahsa-amini",
+        "human-rights"
+      ],
+      "headline": "Inception of the Mahsa Amini Protests",
+      "subheadline": "The death of a young woman in morality police custody sparks months of nationwide demonstrations.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2022-09-16T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Protesters in Tehran"
+      },
+      "body": "Mahsa (Zhina) Amini, a 22-year-old Iranian woman, died under suspicious circumstances after being arrested by the Guidance Patrol. Her death triggered widespread, women-led protests across Iran under the slogan 'Woman, Life, Freedom'."
+    },
+    {
+      "id": "art-0007",
+      "slug": "operation-true-promise-2024",
+      "category": "Military & Proxies",
+      "tags": [
+        "israel",
+        "missiles",
+        "drones"
+      ],
+      "headline": "Operation True Promise",
+      "subheadline": "Iran launches hundreds of drones and missiles at Israel in retaliation for a consulate strike.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2024-04-13T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "Intercepted missiles over Jerusalem"
+      },
+      "body": "In response to an alleged Israeli airstrike on the Iranian consulate in Damascus, Iran launched over 300 drones and ballistic missiles directly at Israel. The vast majority were intercepted by a coalition of Israeli, US, UK, and regional air defenses."
+    },
+    {
+      "id": "art-0008",
+      "slug": "us-israel-strike-iran-nuclear-facilities",
+      "category": "Nuclear Program",
+      "tags": [
+        "nuclear",
+        "israel",
+        "usa",
+        "strike"
+      ],
+      "headline": "US & Israel Attack Iran Nuclear Sites",
+      "subheadline": "Live coverage of the unprecedented military strikes on Iranian nuclear sites by Israeli and American forces.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-11-15T08:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "https://globalnews.com/images/16x9/iran-strike-satellite-wide.jpg",
+        "caption": "Satellite imagery of the strike"
+      },
+      "body": "This report was compiled using unclassified satellite imagery obtained from commercial vendors, statements directly sourced from the US Pentagon, and independent verification from intelligence sources operating within the Middle East. It details the unprecedented military strikes on Iranian nuclear sites by Israeli and American forces."
+    },
+    {
+      "id": "art-0009",
+      "slug": "agentic-ai-openai-shuts-down-sora",
+      "category": "Technology",
+      "tags": [
+        "ai",
+        "openai",
+        "google",
+        "technology"
+      ],
+      "headline": "The Rise of Agentic AI: OpenAI Shuts Down Sora as Google Unveils TurboQuant",
+      "subheadline": "OpenAI's Sora Fails to Monetize While Google Advances Memory Compression in the AI Race.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2026-04-05T09:30:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "https://globalnews.com/images/16x9/ai-revolution-2026.jpg",
+        "caption": "AI Revolution"
+      },
+      "body": "The artificial intelligence landscape in 2026 is fundamentally defined by the transition from passive, prompt-waiting chatbots to dynamic 'Agentic AI' ecosystems. These autonomous Multiagent Systems are now fully capable of executing complex, multi-step workflows in supply chain management, coding, and finance with minimal human oversight. In a surprising turn of events highlighting the precarious economics of Generative AI, OpenAI officially announced the immediate shutdown of its flagship video generation application, Sora. Despite generating massive hype and reaching over a million downloads, the application burned through  million a day with a lifetime revenue of merely .1 million. Conversely, Google has cemented its dominance by introducing 'TurboQuant' at the ICLR 2026 conference—a major breakthrough in memory compression utilizing PolarQuant vector rotation that eliminates the KV cache bottleneck in massive AI models. Alongside TurboQuant, Google released 'Gemma 4', its most capable series of open-source models designed specifically for agentic workflows."
+    },
+    {
+      "id": "art-0010",
+      "slug": "67th-grammy-awards",
+      "category": "Global Events",
+      "tags": [
+        "entertainment",
+        "grammys",
+        "kendrick-lamar",
+        "beyonce"
+      ],
+      "headline": "67th Grammy Awards: Kendrick Lamar Dominates, Beyoncé Makes History",
+      "subheadline": "Historic Wins for Kendrick Lamar and Beyoncé at the 2025 Grammys.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-02-03T05:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "https://globalnews.com/images/16x9/grammys-2025-winners.jpg",
+        "caption": "Grammy 2025 Winners"
+      },
+      "body": "The 67th Annual Grammy Awards, hosted once again by comedian Trevor Noah at the Crypto.com Arena in Los Angeles, delivered a night of historic victories and political undertones. Kendrick Lamar emerged as the undisputed king of the night, sweeping all five of his nominations. His cultural anthem 'Not Like Us' won Song of the Year, while 'luther' (featuring SZA) took home the coveted Record of the Year, making him only the second rap artist in history to win both awards. Meanwhile, Beyoncé shattered another glass ceiling. Receiving 11 nominations for her genre-bending project 'Cowboy Carter', she took home three awards, including the elusive Album of the Year. This monumental win makes her the first Black woman to secure Album of the Year since Lauryn Hill in 1999, and the first ever Black artist to win Best Country Album. The night also celebrated emerging talent, with Chappell Roan winning Best New Artist and Lady Gaga securing Best Pop Vocal Album for 'MAYHEM'."
+    },
+    {
+      "id": "art-0011",
+      "slug": "imf-global-growth-slows-2026",
+      "category": "Economy",
+      "tags": [
+        "economy",
+        "imf",
+        "tariffs",
+        "ai"
+      ],
+      "headline": "Global Growth Expected to Slow to 3.1% in 2026",
+      "subheadline": "IMF Warns of Slower Global Growth Despite  AI Investment Boom.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2026-01-20T14:15:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "https://globalnews.com/images/16x9/imf-global-economy-2026.jpg",
+        "caption": "IMF Global Economy 2026"
+      },
+      "body": "The global economy is navigating a highly precarious path in 2026, described by analysts as displaying a 'tenuous resilience' masking deep underlying vulnerabilities. According to the latest World Economic Outlook Update published by the International Monetary Fund (IMF), global economic growth is projected to slow from 3.3% in 2024 to 3.2% in 2025, and further down to 3.1% in 2026. This slowdown is characterized by a stark divergence between advanced and emerging economies. Advanced economies, burdened by the highest debt levels in a century, are expected to grow by a sluggish 1.5%. Conversely, emerging market economies maintain a more robust trajectory at just above 4%. The United States economy remains a notable exception among developed nations, buoyed by solid consumer spending and an unprecedented surge in AI-driven corporate investment approaching  billion. However, the IMF warns that markets may be confusing resilience for immunity. A dangerous mix of surging protectionism, new US tariffs under the current administration, and the fear that the massive expectations surrounding Artificial Intelligence might fail to materialize, tilts the medium-term risks heavily to the downside."
+    },
+    {
+      "id": "art-gen-001",
+      "slug": "stuxnet-cyberweapon-discovery",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "stuxnet",
+        "malware",
+        "nuclear"
+      ],
+      "headline": "Discovery of Stuxnet (Operation Olympic Games)",
+      "subheadline": "First known cyberweapon causes physical destruction at Natanz enrichment plant.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2010-06-17T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "Malware signatures detected globally"
+      },
+      "body": "Security firm VirusBlokAda reported a highly sophisticated computer worm. Analysis revealed Stuxnet was designed specifically to target Siemens SCADA systems used in Iran's Natanz nuclear facility. The worm manipulated PLC controllers to spin centrifuges out of control while playing back normal operating data to plant operators, destroying an estimated 1,000 centrifuges."
+    },
+    {
+      "id": "art-gen-002",
+      "slug": "operation-orchard-syria",
+      "category": "Military & Proxies",
+      "tags": [
+        "israel",
+        "syria",
+        "nuclear",
+        "airstrike"
+      ],
+      "headline": "Operation Orchard (Outside the Box)",
+      "subheadline": "Israeli air force destroys suspected Syrian nuclear reactor in Deir ez-Zor.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2007-09-06T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Satellite Before/After Al Kibar"
+      },
+      "body": "In a highly classified midnight precision strike, Israeli F-15I and F-16I fighter jets penetrated Syrian airspace and completely leveled the Al Kibar facility in the Deir ez-Zor region. Western intelligence later confirmed the site was a nuclear reactor being built with North Korean assistance. Syria largely remained silent to avoid diplomatic and military escalation."
+    },
+    {
+      "id": "art-gen-003",
+      "slug": "assassination-mohsen-fakhrizadeh",
+      "category": "Internal Affairs",
+      "tags": [
+        "assassination",
+        "nuclear",
+        "mossad",
+        "irgc"
+      ],
+      "headline": "Assassination of Mohsen Fakhrizadeh",
+      "subheadline": "Iran's top nuclear scientist killed by a satellite-controlled AI machine gun.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2020-11-27T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "Bullet-riddled Nissan in Absard"
+      },
+      "body": "Mohsen Fakhrizadeh, the undisputed mastermind of Iran's covert nuclear weapons program (Project Amad), was assassinated in Absard, near Tehran. Intelligence reports indicate the operation was executed using a specialized, AI-assisted remote-controlled sniper rifle smuggled into the country in pieces by Mossad operatives, marking a radical leap in kinetic cybernetic warfare."
+    },
+    {
+      "id": "art-gen-004",
+      "slug": "operation-opera-iraq",
+      "category": "Military & Proxies",
+      "tags": [
+        "iraq",
+        "israel",
+        "nuclear"
+      ],
+      "headline": "Operation Opera (Osirak Reactor Strike)",
+      "subheadline": "Surprise air strike neutralizes Saddam Hussein's nuclear ambitions.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1981-06-07T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Osirak dome before the strike"
+      },
+      "body": "Eight Israeli F-16s, escorted by six F-15s, executed a 1,600 km round-trip flight through hostile airspace to decisively bomb the French-built Osirak nuclear reactor southeast of Baghdad. This doctrine of preemptive non-proliferation became known as the 'Begin Doctrine', establishing the precedent that Israel would not allow sworn enemies to acquire weapons of mass destruction."
+    },
+    {
+      "id": "art-gen-005",
+      "slug": "mia-bombing-buenos-aires",
+      "category": "Global Events",
+      "tags": [
+        "terrorism",
+        "hezbollah",
+        "argentina",
+        "iran"
+      ],
+      "headline": "AMIA Jewish Community Center Bombing",
+      "subheadline": "A devastating VBEID attack in Buenos Aires orchestrated by Hezbollah and Iran.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1994-07-18T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "AMIA ruins in Buenos Aires"
+      },
+      "body": "A massive suicide van bomb explicitly targeted the Asociación Mutual Israelita Argentina (AMIA) building in Buenos Aires, killing 85 people and injuring hundreds. Extensive intelligence investigations definitively linked the operation to Hezbollah's external security organization, working directly under the orders of highest-echelon Iranian officials."
+    },
+    {
+      "id": "art-gen-006",
+      "slug": "hezbollah-pager-explosions",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "hezbollah",
+        "lebanon",
+        "intelligence"
+      ],
+      "headline": "Operation Golden Ratio: Hezbollah Pager Explosions",
+      "subheadline": "Thousands of communication devices detonate simultaneously across Lebanon.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2024-09-17T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Damaged pagers and chaos in Beirut"
+      },
+      "body": "In a stunning display of supply-chain infiltration, thousands of AR-924 pagers recently acquired by Hezbollah operatives detonated simultaneously across Lebanon and Syria. Intelligence suggests the Mossad intercepted the shipment months prior, embedding microscopic shaped PETN charges next to the batteries, decimating the group's command-and-control network."
+    },
+    {
+      "id": "art-gen-007",
+      "slug": "assassination-imad-mughniyeh",
+      "category": "Military & Proxies",
+      "tags": [
+        "hezbollah",
+        "cia",
+        "mossad",
+        "assassination"
+      ],
+      "headline": "Assassination of Imad Mughniyeh",
+      "subheadline": "CIA and Mossad joint operation terminates Hezbollah's elusive military chief.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2008-02-12T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Damascus car bomb aftermath"
+      },
+      "body": "Imad Mughniyeh, the mastermind behind the 1983 US Embassy and Marine barracks bombings, was killed in Damascus by a specialized explosive device planted in the spare tire of his SUV. The operation was a rare, highly coordinated joint effort between the US CIA and the Israeli Mossad, concluding a 25-year international manhunt."
+    },
+    {
+      "id": "art-gen-008",
+      "slug": "capture-us-drone-rq-170",
+      "category": "Technology",
+      "tags": [
+        "drone",
+        "iran",
+        "usa",
+        "cyber"
+      ],
+      "headline": "Capture of US Stealth Drone RQ-170 Sentinel",
+      "subheadline": "Iran hacks and forces down an American highly classified stealth UAV.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2011-12-04T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "RQ-170 displayed by Iranian military"
+      },
+      "body": "While conducting reconnaissance over Iranian nuclear facilities, a CIA-operated Lockheed Martin RQ-170 Sentinel stealth drone was covertly hijacked. Through sophisticated GPS spoofing and electronic warfare techniques, Iranian cyber units managed to override the drone's navigation protocols and land it practically intact in northeastern Iran."
+    },
+    {
+      "id": "art-gen-009",
+      "slug": "cyberattack-saudi-aramco-shamoon",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "iran",
+        "saudi-arabia",
+        "shamoon"
+      ],
+      "headline": "Shamoon Cyberattack on Saudi Aramco",
+      "subheadline": "Iranian malware wipes data from 30,000 corporate computers.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2012-08-15T00:00:00Z",
+      "read_time_minutes": 4,
+      "featured_image": {
+        "url": "",
+        "caption": "Burning American flag displayed by malware"
+      },
+      "body": "Targeting the world's most valuable company, the Shamoon virus infected the IT network of Saudi Aramco. Believed to be an Iranian reprisal for Stuxnet, the wiper malware systematically destroyed hard drives globally, replacing data with a picture of a burning American flag, and forcing Aramco offline for weeks."
+    },
+    {
+      "id": "art-gen-010",
+      "slug": "execution-eli-cohen",
+      "category": "Geopolitics",
+      "tags": [
+        "mossad",
+        "espionage",
+        "syria"
+      ],
+      "headline": "Execution of Master Spy Eli Cohen",
+      "subheadline": "Israel's greatest intelligence asset in Syria is discovered and hanged.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1965-05-18T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Eli Cohen in Marjeh Square, Damascus"
+      },
+      "body": "Eli Cohen, an Israeli spy who infiltrated the highest echelons of the Syrian government under the alias Kamel Amin Thaabet, was discovered by Soviet counter-intelligence equipment while transmitting morse code to Tel Aviv. His acquired intelligence proved highly critical to Israel's rapid victory in the Six-Day War two years later."
+    },
+    {
+      "id": "art-gen-011",
+      "slug": "mossad-archieve-heist",
+      "category": "Nuclear Program",
+      "tags": [
+        "mossad",
+        "nuclear",
+        "tehran",
+        "heist"
+      ],
+      "headline": "The Tehran Nuclear Archive Heist",
+      "subheadline": "Mossad operatives crack a secret warehouse and steal 100,000 nuclear documents.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2018-01-31T00:00:00Z",
+      "read_time_minutes": 10,
+      "featured_image": {
+        "url": "",
+        "caption": "Binders of Project Amad data"
+      },
+      "body": "In a cinematic operation within a dilapidated commercial district in Tehran, Mossad agents breached a heavily fortified warehouse holding the clandestine records of Project Amad. Within exactly 6 hours and 29 minutes, they broke 32 safes using thermal torches, extracting half a ton of highly classified physical and digital data detailing Iran's past nuclear weapons designs."
+    },
+    {
+      "id": "art-gen-012",
+      "slug": "operation-wrath-of-god",
+      "category": "Geopolitics",
+      "tags": [
+        "mossad",
+        "munich",
+        "assassination",
+        "black-september"
+      ],
+      "headline": "Operation Wrath of God",
+      "subheadline": "Covert Mossad campaign to eliminate the architects of the Munich Massacre.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1972-10-01T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Mossad hit squad targets"
+      },
+      "body": "Authorized explicitly by PM Golda Meir, 'Wrath of God' was a grueling, decades-long covert assassination campaign directed globally against members of the Palestinian militant group Black September and PLO operatives. Using car bombs, suppressed handguns, and exploding telephones, the operation redefined modern extrajudicial counter-terrorism."
+    },
+    {
+      "id": "art-gen-013",
+      "slug": "operation-diamond-mig21",
+      "category": "Geopolitics",
+      "tags": [
+        "mossad",
+        "iraq",
+        "aviation",
+        "kgb"
+      ],
+      "headline": "Operation Diamond (Defection of a MiG-21)",
+      "subheadline": "Israel successfully orchestrates the defection of an Iraqi fighter pilot and his advanced Soviet jet.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1966-08-16T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Defected MiG-21 parked in Israel with 007 numbers"
+      },
+      "body": "The Mossad, executing 'Operation Diamond', convinced disgruntled Iraqi pilot Munir Redfa to defect to Israel with the highly advanced, top-secret Soviet MiG-21. The successful acquisition allowed Western and Israeli intelligence to intimately study the aircraft's radar and performance, neutralizing it as a threat in subsequent conflicts."
+    },
+    {
+      "id": "art-gen-014",
+      "slug": "operation-focus-six-day-war",
+      "category": "Military & Proxies",
+      "tags": [
+        "israel",
+        "egypt",
+        "aviation",
+        "six-day-war"
+      ],
+      "headline": "Operation Focus (Mivtza Moked)",
+      "subheadline": "Total annihilation of the Egyptian Air Force on the ground.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1967-06-05T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Destroyed MiG jets on tarmac"
+      },
+      "body": "Launching exactly at 07:45 AM, almost the entirety of the Israeli Air Force flew low under radar cover towards Egypt. In a devastating preemptive strike based on immaculate intelligence regarding patrol schedules, Israel destroyed 338 Egyptian aircraft almost entirely on the ground, securing absolute air superiority on the first morning of the Six-Day War."
+    },
+    {
+      "id": "art-gen-015",
+      "slug": "sabotage-natanz-centrifuge-explosion",
+      "category": "Internal Affairs",
+      "tags": [
+        "natanz",
+        "nuclear",
+        "sabotage"
+      ],
+      "headline": "Explosion at Natanz Centrifuge Assembly Center",
+      "subheadline": "A mysterious massive detonation destroys advanced Iranian centrifuge development.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2020-07-02T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Scorched building at Natanz"
+      },
+      "body": "A powerful explosion effectively ripped apart an above-ground advanced centrifuge assembly facility at the Natanz nuclear complex. Extensive OSINT satellite analysis revealed immense structural damage. While a dissident group named 'Cheetahs of the Homeland' claimed responsibility, foreign intelligence uniformly attributed the highly precise blast to a planted explosive device by Israel."
+    },
+    {
+      "id": "art-gen-016",
+      "slug": "october-7-hamas-assault",
+      "category": "Global Events",
+      "tags": [
+        "israel",
+        "hamas",
+        "gaza",
+        "terrorism",
+        "intelligence-failure"
+      ],
+      "headline": "October 7 Surprise Attack (Operation Al-Aqsa Flood)",
+      "subheadline": "Hamas breaches the Gaza border in a devastating and historic intelligence failure.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2023-10-07T00:00:00Z",
+      "read_time_minutes": 9,
+      "featured_image": {
+        "url": "",
+        "caption": "Hamas militants cross the border fence"
+      },
+      "body": "Under the cover of a massive rocket barrage targeting central Israel, thousands of Hamas and PIJ militants disabled observation cameras with drones and bulldozed through the multi-billion-dollar security barrier. Effectively exploiting Israeli intelligence hubris and holiday complacence, they infiltrated over 20 communities, resulting in the deadliest day in modern Israeli history and sparking a major regional war."
+    },
+    {
+      "id": "art-gen-017",
+      "slug": "assassination-hassan-nasrallah",
+      "category": "Military & Proxies",
+      "tags": [
+        "hezbollah",
+        "nasrallah",
+        "israel",
+        "lebanon",
+        "bunker-buster"
+      ],
+      "headline": "Assassination of Sayyed Hassan Nasrallah",
+      "subheadline": "Hezbollah's long-standing Supreme Leader killed in a targeted massive airstrike in Dahiya.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2024-09-27T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "Dahiya leveled by bunker-busters"
+      },
+      "body": "After 32 years at the helm of Hezbollah, Sheikh Hassan Nasrallah was assassinated in a massive underground command bunker in the Dahiya suburb of Beirut. The meticulous operation, titled 'New Order', involved Israeli F-15I jets dropping dozens of 2000-lb JDAM bunker-buster munitions in a concentrated sequence exactly when high-level Iranian and Hezbollah commanders were coordinating."
+    },
+    {
+      "id": "art-gen-018",
+      "slug": "karine-a-arms-smuggling",
+      "category": "Geopolitics",
+      "tags": [
+        "iran",
+        "plo",
+        "smuggling",
+        "naval"
+      ],
+      "headline": "Capture of the Karine A",
+      "subheadline": "Israeli Navy intercepts a freighter loaded with 50 tons of Iranian weapons destined for the PLO.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2002-01-03T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Commandos board the Karine A"
+      },
+      "body": "In 'Operation Noah's Ark', Shayetet 13 naval commandos fast-roped from helicopters to commandeer the Palestinian freighter 'Karine A' deep in the Red Sea. Uncovering massive watertight containers packed with Katyusha rockets, anti-tank missiles, and C-4 explosives provided by Iran, the bust severely damaged Yasser Arafat's diplomatic standing with the US administration."
+    },
+    {
+      "id": "art-gen-019",
+      "slug": "pegasus-spyware-nso-group",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "spyware",
+        "nso-group",
+        "israel",
+        "surveillance"
+      ],
+      "headline": "The Pegasus Spyware File",
+      "subheadline": "NSO Group's Zero-Click exploit transforms global intelligence gathering.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2016-08-25T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "Digital mobile targeting scope"
+      },
+      "body": "Initially uncovered after targeting human rights defender Ahmed Mansoor, the Pegasus spyware developed by the Israeli cyber-arms firm NSO Group utilizes sophisticated 'Zero-Click' vulnerabilities (like forced iMessage exploits) to covertly jailbreak targets' phones. Capable of harvesting all data, passwords, and silently activating cameras/mics, Pegasus became the world's most sought-after intelligence tool."
+    },
+    {
+      "id": "art-gen-020",
+      "slug": "black-september-jordan",
+      "category": "Internal Affairs",
+      "tags": [
+        "jordan",
+        "plo",
+        "civil-war"
+      ],
+      "headline": "Black September",
+      "subheadline": "King Hussein forcefully expels the PLO from the Kingdom of Jordan.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1970-09-16T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Tanks in Amman, Jordan"
+      },
+      "body": "Following multiple assassination attempts against King Hussein and the brazen hijacking of international airliners to Dawson's Field, the Jordanian Armed Forces launched a brutal crackdown on Palestinian militant groups operating an autonomous state-within-a-state. The bloody conflict effectively pushed the PLO into Lebanon, setting the stage for future Middle East wars."
+    },
+    {
+      "id": "art-gen-021",
+      "slug": "snowden-nsa-leaks",
+      "category": "Technology",
+      "tags": [
+        "surveillance",
+        "nsa",
+        "cyber",
+        "snowden"
+      ],
+      "headline": "The Edward Snowden NSA Leaks",
+      "subheadline": "Massive intelligence breach reveals global surveillance programs like PRISM.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2013-06-05T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "PRISM presentation slide"
+      },
+      "body": "Edward Snowden, a former CIA employee and NSA contractor, leaked highly classified information from the NSA revealing numerous global surveillance programs. The disclosures included details on PRISM, XKeyscore, and Tempora, exposing how intelligence agencies were systematically collecting metadata and intercepting telecommunications of millions of citizens and foreign leaders globally."
+    },
+    {
+      "id": "art-gen-022",
+      "slug": "operation-neptune-spear",
+      "category": "Military & Proxies",
+      "tags": [
+        "cia",
+        "navy-seals",
+        "terrorism",
+        "usa"
+      ],
+      "headline": "Operation Neptune Spear",
+      "subheadline": "US Navy SEALs assassinate Al-Qaeda founder Osama bin Laden in Pakistan.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2011-05-02T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Abbottabad compound compound"
+      },
+      "body": "After a decade-long manhunt driven by intensive CIA intelligence gathering, tracking a trusted courier, US Joint Special Operations Command (JSOC) launched a clandestine raid into Abbottabad, Pakistan. SEAL Team Six infiltrated the compound using stealth helicopters and killed Osama bin Laden, profoundly altering the trajectory of the global War on Terror."
+    },
+    {
+      "id": "art-gen-023",
+      "slug": "notpetya-cyberattack",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "russia",
+        "malware",
+        "notpetya"
+      ],
+      "headline": "The NotPetya Global Cyberattack",
+      "subheadline": "Russian state-sponsored malware causes $10 billion in global damages.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2017-06-27T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Ransomware locked screen"
+      },
+      "body": "Initially disguised as ransomware targeting Ukrainian infrastructure via accounting software, NotPetya quickly spread globally using the EternalBlue exploit. Intelligence agencies attributed the attack to the Russian GRU (Sandworm). Unlike typical ransomware, it was purely destructive (a wiper), relentlessly crippling global shipping giants like Maersk and causing unprecedented economic devastation."
+    },
+    {
+      "id": "art-gen-024",
+      "slug": "solarwinds-hack",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "espionage",
+        "russia",
+        "supply-chain"
+      ],
+      "headline": "SolarWinds Supply Chain Hack",
+      "subheadline": "Russian intelligence infiltrates the deepest levels of US government networks.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2020-12-13T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "Server room network racks"
+      },
+      "body": "Foreign state hackers, later identified by the CIA and NSA as Cozy Bear (Russian SVR), compromised the Orion software update system of IT management company SolarWinds. This catastrophic supply-chain attack allowed stealthy backdoors into thousands of organizations, including the US Treasury, Pentagon, and major cybersecurity firm FireEye, going completely undetected for months."
+    },
+    {
+      "id": "art-gen-025",
+      "slug": "assassination-mahmoud-al-mabhouh",
+      "category": "Geopolitics",
+      "tags": [
+        "mossad",
+        "assassination",
+        "dubai",
+        "hamas"
+      ],
+      "headline": "Assassination of Mahmoud al-Mabhouh in Dubai",
+      "subheadline": "A hit squad executes Hamas chief logistics officer in his hotel room.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2010-01-19T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "CCTV footage of alleged agents"
+      },
+      "body": "Mahmoud al-Mabhouh, a senior Hamas military commander responsible for Iranian weapons smuggling, was found dead in a Dubai hotel. Dubai Police later released extensive CCTV footage showing a 33-person hit team utilizing false foreign passports and disguises (tennis gear, wigs). The highly coordinated operation was widely attributed to Israel's Mossad."
+    },
+    {
+      "id": "art-gen-026",
+      "slug": "cablegate-wikileaks",
+      "category": "Internal Affairs",
+      "tags": [
+        "intelligence",
+        "leaks",
+        "wikileaks",
+        "diplomacy"
+      ],
+      "headline": "WikiLeaks Cablegate",
+      "subheadline": "The largest release of confidential diplomatic communications in history.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2010-11-28T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Redacted diplomatic cable"
+      },
+      "body": "WikiLeaks began publishing over 250,000 classified US State Department diplomatic cables provided by US Army intelligence analyst Chelsea Manning. The monumental leak exposed unvarnished geopolitical analyses, covert intelligence gathering directives by diplomats, and secret agreements, deeply embarrassing the US government and complicating international relations globally."
+    },
+    {
+      "id": "art-gen-027",
+      "slug": "assassination-yahya-ayyash",
+      "category": "Military & Proxies",
+      "tags": [
+        "shin-bet",
+        "terrorism",
+        "hamas",
+        "assassination"
+      ],
+      "headline": "Assassination of 'The Engineer' Yahya Ayyash",
+      "subheadline": "Hamas master bombmaker killed by an explosive cell phone.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1996-01-05T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Motorola Alpha cell phone"
+      },
+      "body": "Yahya Ayyash, the chief bombmaker for Hamas responsible for introducing suicide bombings to the Israeli-Palestinian conflict, was assassinated by the Shin Bet. Israeli intelligence managed to smuggle a Motorola Alpha mobile phone packed with 50 grams of RDX explosive to Ayyash. When he answered a call from his father, the device was detonated remotely via an airborne relay."
+    },
+    {
+      "id": "art-gen-028",
+      "slug": "ukraine-power-grid-hack",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "russia",
+        "ukraine",
+        "infrastructure"
+      ],
+      "headline": "Cyber Attack on Ukrainian Power Grid",
+      "subheadline": "First known successful cyber intrusion to take down a power grid.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2015-12-23T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Darkened streets in Kyiv"
+      },
+      "body": "During the height of winter, Russian state-sponsored hackers (Sandworm) executed a synchronized attack on three energy distribution companies in Ukraine. Utilizing the BlackEnergy malware and phishing emails, they remotely commanded circuit breakers to open, plunging over 230,000 residents into darkness for hours—a watershed moment in critical infrastructure cyber warfare."
+    },
+    {
+      "id": "art-gen-029",
+      "slug": "capture-adolf-eichmann",
+      "category": "Internal Affairs",
+      "tags": [
+        "mossad",
+        "argentina",
+        "intelligence"
+      ],
+      "headline": "The Capture of Adolf Eichmann",
+      "subheadline": "Mossad agents abduct top Nazi war criminal from the streets of Buenos Aires.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1960-05-11T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Eichmann during his trial in Jerusalem"
+      },
+      "body": "Acting on a tip from a German prosecutor, a covert Mossad team tracked down Adolf Eichmann, a major architect of the Holocaust living under the alias Ricardo Klement in Argentina. The operatives snatched him off the street, held him in a safehouse, and smuggled him to Israel drugged and dressed as an El Al flight attendant to stand a highly publicized trial."
+    },
+    {
+      "id": "art-gen-030",
+      "slug": "assassination-alexander-litvinenko",
+      "category": "Geopolitics",
+      "tags": [
+        "fsb",
+        "russia",
+        "assassination",
+        "poison"
+      ],
+      "headline": "Poisoning of Alexander Litvinenko",
+      "subheadline": "Former FSB officer assassinated in London using radioactive Polonium-210.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2006-11-23T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Litvinenko recovering in hospital before his death"
+      },
+      "body": "Alexander Litvinenko, a vocal critic of the Kremlin who defected to the UK, was lethally poisoned after drinking tea laced with the highly radioactive isotope Polonium-210 at a London hotel. British intelligence investigations concluded that two Russian agents executed the hit, setting a terrifying precedent for state-sponsored radiological assassinations on foreign soil."
+    },
+    {
+      "id": "art-gen-031",
+      "slug": "cuban-missile-crisis-intel",
+      "category": "Global Events",
+      "tags": [
+        "cold-war",
+        "cia",
+        "ussr",
+        "nuclear"
+      ],
+      "headline": "The Cuban Missile Crisis Intelligence Coup",
+      "subheadline": "U-2 Spy planes discover Soviet nuclear missiles 90 miles from Florida.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1962-10-14T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "U-2 aerial recon photo of missile sites"
+      },
+      "body": "A high-altitude U-2 reconnaissance flight piloted by Major Richard Heyser captured photographic evidence of medium-range ballistic missile (MRBM) facilities being rapidly constructed by the Soviet Union in Cuba. This crucial intelligence briefed to President Kennedy initiated a terrifying 13-day diplomatic and naval standoff, bringing the world to the absolute brink of thermonuclear war."
+    },
+    {
+      "id": "art-gen-032",
+      "slug": "vault-7-cia-leaks",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "cia",
+        "wikileaks",
+        "tools"
+      ],
+      "headline": "Vault 7: CIA Cyber Tools Exposed",
+      "subheadline": "WikiLeaks drops entire catalogue of CIA hacking arsenals.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2017-03-07T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Vault 7 logo on computer screen"
+      },
+      "body": "WikiLeaks initiated the 'Vault 7' series, releasing thousands of documents detailing the sheer scope of the CIA's Center for Cyber Intelligence. The leak exposed zero-day exploits for iPhones, Androids, Windows PCs, and even Samsung Smart TVs (which were used as covert listening devices), severely compromising CIA operations worldwide."
+    },
+    {
+      "id": "art-gen-033",
+      "slug": "operation-entebbe",
+      "category": "Military & Proxies",
+      "tags": [
+        "idf",
+        "hostage-rescue",
+        "terrorism"
+      ],
+      "headline": "Operation Thunderbolt (Entebbe Raid)",
+      "subheadline": "Audacious counter-terrorist hostage-rescue mission in Uganda.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1976-07-04T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "C-130 Hercules at Entebbe airport"
+      },
+      "body": "After an Air France plane with 248 passengers was hijacked to Uganda by PLO and German militants, the IDF launched a spectacular 4,000-kilometer rescue mission. Using commandos in a black Mercedes disguised as Idi Amin's motorcade, Sayeret Matkal stormed the terminal, rescued 102 hostages, and neutralized all hijackers within just 90 minutes."
+    },
+    {
+      "id": "art-gen-034",
+      "slug": "ashraf-marwan-yom-kippur",
+      "category": "Geopolitics",
+      "tags": [
+        "intelligence",
+        "mossad",
+        "egypt"
+      ],
+      "headline": "The 'Angel' Warning: Ashraf Marwan",
+      "subheadline": "Nasser's son-in-law warns Mossad of the impending Yom Kippur Attack.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1973-10-05T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Ashraf Marwan with Anwar Sadat"
+      },
+      "body": "Just hours before the outbreak of the devastating Yom Kippur War, Ashraf Marwan (Mossad codename 'The Angel'), the son-in-law of former Egyptian President Nasser, urgently contacted the head of Mossad in London. He relayed the absolute exact war plan that Egypt and Syria would attack simultaneously the next day. Despite Israeli intelligence failures in trusting the timing initially, his intel saved the Golan Heights."
+    },
+    {
+      "id": "art-gen-035",
+      "slug": "assassination-ismael-haniyeh-tehran",
+      "category": "Geopolitics",
+      "tags": [
+        "mossad",
+        "hamas",
+        "iran",
+        "assassination"
+      ],
+      "headline": "Assassination of Ismail Haniyeh in Tehran",
+      "subheadline": "Hamas political leader assassinated inside heavily guarded IRGC guesthouse.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2024-07-31T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Damaged guesthouse in northern Tehran"
+      },
+      "body": "While attending the inauguration of Iran's new president in Tehran, Hamas political chief Ismail Haniyeh was killed in his bedroom within an IRGC compound. Unprecedented intelligence confirmed an explosive device was smuggled into the highly secure facility months in advance and detonated remotely, utterly humiliating Iranian counter-intelligence and shaking the region."
+    },
+    {
+      "id": "art-gen-036",
+      "slug": "project-mkultra",
+      "category": "Internal Affairs",
+      "tags": [
+        "cia",
+        "mind-control",
+        "classified"
+      ],
+      "headline": "Exposure of Project MKUltra",
+      "subheadline": "Church Committee reveals illegal CIA mind-control experiments.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1975-12-22T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Declassified interrogation documents"
+      },
+      "body": "The US Senate Church Committee exposed Project MKUltra, a sprawling illegal CIA program attempting to develop mind-control drugs and interrogation techniques. From the 1950s onward, the agency covertly administered LSD, sensory deprivation, and electroshock to unwitting US and Canadian citizens in hospitals, universities, and prisons, destroying most records when the program was halted."
+    },
+    {
+      "id": "art-gen-037",
+      "slug": "operation-ivy-bells",
+      "category": "Technology",
+      "tags": [
+        "cia",
+        "nsa",
+        "ussr",
+        "naval"
+      ],
+      "headline": "Operation Ivy Bells",
+      "subheadline": "US Navy taps Soviet underwater communication cables.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1971-10-01T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Specialized recording pod attached to cable"
+      },
+      "body": "In one of the most daring and productive intelligence missions of the Cold War, the USS Halibut submarine covertly entered the Soviet Sea of Okhotsk. Navy divers installed a massive high-tech tapping pod physically over a Soviet underwater communication cable, capturing unencrypted naval communications for a decade until compromised by NSA analyst Ronald Pelton."
+    },
+    {
+      "id": "art-gen-038",
+      "slug": "wannacry-ransomware",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "north-korea",
+        "nsa",
+        "malware"
+      ],
+      "headline": "WannaCry Ransomware Epidemic",
+      "subheadline": "North Korean hackers weaponize leaked NSA exploits.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2017-05-12T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Ransom demand screen on hospital computer"
+      },
+      "body": "Exploiting the 'EternalBlue' vulnerability leaked from extreme NSA archives, the WannaCry ransomware worm infected over 200,000 computers across 150 countries in single day. The attack severely impacted the UK's National Health Service (NHS), forcing hospitals to turn away patients, until a British security researcher discovered a hardcoded 'kill switch' domain."
+    },
+    {
+      "id": "art-gen-039",
+      "slug": "chernobyl-intelligence-coverup",
+      "category": "Global Events",
+      "tags": [
+        "ussr",
+        "nuclear",
+        "disaster",
+        "espionage"
+      ],
+      "headline": "Chernobyl Disaster and Swedish Intelligence",
+      "subheadline": "Western intelligence exposes the true scale of the Soviet nuclear meltdown.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1986-04-28T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Reactor number 4 ruins"
+      },
+      "body": "For two days, the Soviet Union imposed a total information blackout regarding the explosion of Reactor 4 at the Chernobyl Nuclear Power Plant. It was only when workers at the Forsmark Nuclear Power Plant in Sweden detected anomalous radioactive particles on their shoes that Western intelligence pieced together weather patterns and satellite photos to expose the catastrophe to the world."
+    },
+    {
+      "id": "art-gen-040",
+      "slug": "munich-olympics-massacre",
+      "category": "Global Events",
+      "tags": [
+        "terrorism",
+        "bso",
+        "germany"
+      ],
+      "headline": "The Munich Olympics Massacre",
+      "subheadline": "A devastating terrorist attack alters international security frameworks.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1972-09-05T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Masked terrorist on the balcony"
+      },
+      "body": "During the 1972 Summer Olympics, eight members of the Palestinian militant group Black September infiltrated the Olympic Village, taking 11 Israeli Olympic team members hostage. A botched rescue attempt by unprepared German police forces at the Fürstenfeldbruck airbase resulted in the deaths of all hostages, prompting the creation of elite counter-terrorism units worldwide like GSG 9."
+    },
+    {
+      "id": "art-gen-041",
+      "slug": "bletchley-park-enigma",
+      "category": "Technology",
+      "tags": [
+        "ww2",
+        "cryptography",
+        "intelligence",
+        "enigma"
+      ],
+      "headline": "Cracking the Enigma Code",
+      "subheadline": "Alan Turing and Bletchley Park team decipher Nazi Germany's ultimate encryption.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1941-07-09T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "An Enigma decryption machine"
+      },
+      "body": "In one of the most critical intelligence victories in history, mathematicians and codebreakers at the UK's top-secret Bletchley Park successfully broke the complex naval Enigma code used by German U-boats. The intelligence gleaned, codenamed 'Ultra', provided immense strategic advantages to the Allies, arguably shortening the Second World War by two to four years."
+    },
+    {
+      "id": "art-gen-042",
+      "slug": "operation-fortitude-dday",
+      "category": "Geopolitics",
+      "tags": [
+        "ww2",
+        "deception",
+        "mi5",
+        "allies"
+      ],
+      "headline": "Operation Fortitude (D-Day Deception)",
+      "subheadline": "A phantom army of inflatable tanks fools Hitler regarding the Normandy invasion.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1944-06-05T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Soldiers lifting an inflatable rubber tank"
+      },
+      "body": "To ensure the success of the D-Day landings, Allied intelligence executed 'Operation Fortitude'. By employing double agents, false radio traffic, and a completely fictitious 'First U.S. Army Group' (FUSAG) commanded by General George Patton equipped with inflatable Sherman tanks and wooden airplanes, they convinced German High Command that the invasion would happen at Pas de Calais, not Normandy."
+    },
+    {
+      "id": "art-gen-043",
+      "slug": "zimmermann-telegram",
+      "category": "Geopolitics",
+      "tags": [
+        "ww1",
+        "cryptography",
+        "diplomacy"
+      ],
+      "headline": "The Zimmermann Telegram",
+      "subheadline": "British codebreakers intercept a message that brings America into WWI.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1917-02-24T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Decoded German telegram"
+      },
+      "body": "British Naval Intelligence (Room 40) successfully intercepted and decrypted a highly classified telegram sent by Arthur Zimmermann, the German Foreign Secretary. The message proposed a secret military alliance between Germany and Mexico if the US entered World War I. Outraged by the scheme when it was published, the American public decisively rallied to enter the global conflict."
+    },
+    {
+      "id": "art-gen-044",
+      "slug": "operation-paperclip",
+      "category": "Geopolitics",
+      "tags": [
+        "cia",
+        "cold-war",
+        "space-race",
+        "germany"
+      ],
+      "headline": "Operation Paperclip",
+      "subheadline": "US intelligence covertly recruits 1,600 Nazi scientists to win the Cold War.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1945-07-20T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Wernher von Braun and captured scientists"
+      },
+      "body": "Under total secrecy authorized by the Joint Chiefs of Staff, the US rapidly brought over 1,600 former Nazi German scientists, engineers, and technicians—including rocket pioneer Wernher von Braun—into America post-WWII. The intelligence directive intentionally obfuscated the scientists' war crime associations in a frantic race against the Soviet Union to acquire aerospace and weapon technologies."
+    },
+    {
+      "id": "art-gen-045",
+      "slug": "u2-spy-plane-incident",
+      "category": "Global Events",
+      "tags": [
+        "cold-war",
+        "cia",
+        "ussr",
+        "aviation"
+      ],
+      "headline": "The 1960 U-2 Incident",
+      "subheadline": "American spy plane shot down deep inside Soviet airspace.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1960-05-01T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Wreckage of the U-2 in Moscow"
+      },
+      "body": "During a highly classified CIA reconnaissance flight over the Soviet Union, Francis Gary Powers' U-2 spy plane was struck by an S-75 Dvina surface-to-air missile. Initially covering it up as a lost 'weather plane', the Eisenhower administration was severely embarrassed when Soviet Premier Nikita Khrushchev revealed they had captured the pilot and the plane's espionage equipment intact."
+    },
+    {
+      "id": "art-gen-046",
+      "slug": "iran-contra-affair",
+      "category": "Geopolitics",
+      "tags": [
+        "cia",
+        "iran",
+        "nicaragua",
+        "scandal"
+      ],
+      "headline": "The Iran-Contra Affair",
+      "subheadline": "White House covertly sells arms to Iran to fund Contra rebels in Nicaragua.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1986-11-03T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "Oliver North testimony"
+      },
+      "body": "A profound political scandal erupted when it was revealed that senior Reagan administration officials secretly facilitated the sale of arms to the Islamic Republic of Iran (which was under an arms embargo) to secure the release of American hostages spanning back to the US Embassy in Beirut. The proceeds were then illegally routed to fund the right-wing Contra rebel groups in Nicaragua."
+    },
+    {
+      "id": "art-gen-047",
+      "slug": "operation-gold-berlin-tunnel",
+      "category": "Technology",
+      "tags": [
+        "cia",
+        "mi6",
+        "kgb",
+        "cold-war"
+      ],
+      "headline": "Operation Gold (The Berlin Tunnel)",
+      "subheadline": "CIA and MI6 dig under the Berlin Wall to tap Soviet military communications.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1954-08-01T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "CIA operatives scanning massive wire walls"
+      },
+      "body": "In a stunning engineering and intelligence feat, the CIA and MI6 tunneled 1,500 feet directly into the Soviet sector of East Berlin. Here, they tapped the main landline communication trunk of the Soviet military headquarters. Although considered a technological marvel that recorded 440,000 conversations, it was later revealed a KGB mole (George Blake) had compromised the mission from day one."
+    },
+    {
+      "id": "art-gen-048",
+      "slug": "cambridge-analytica-scandal",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "facebook",
+        "data",
+        "elections"
+      ],
+      "headline": "The Cambridge Analytica Data Scandal",
+      "subheadline": "Weaponized psychological profiling harvests 87 million Facebook profiles.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2018-03-17T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Zuckerberg testifying in congress"
+      },
+      "body": "Whistleblower Christopher Wylie revealed that Cambridge Analytica, a political consulting firm, exploited a loophole in the Facebook API to harvest the personal data of up to 87 million users without consent. This mass collection of psychographic data was subsequently utilized to deploy micro-targeted political advertisements designed to influence the 2016 US presidential elections and the Brexit vote."
+    },
+    {
+      "id": "art-gen-049",
+      "slug": "sony-pictures-hack",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "north-korea",
+        "sony",
+        "malware"
+      ],
+      "headline": "Cyber Attack on Sony Pictures",
+      "subheadline": "North Korean operatives paralyze Hollywood studio over 'The Interview' film.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2014-11-24T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "GOP skull logo on Sony servers"
+      },
+      "body": "A hacker group named the 'Guardians of Peace' completely breached the Sony Pictures Entertainment network. They released terrifying amounts of confidential data, including unreleased films, employee social security numbers, and embarrassing executive emails. The FBI definitively traced the devastating wiper-malware attack back to the North Korean government, retaliating against the comedy film 'The Interview' which depicted the assassination of Kim Jong-un."
+    },
+    {
+      "id": "art-gen-050",
+      "slug": "vela-incident",
+      "category": "Global Events",
+      "tags": [
+        "nuclear",
+        "israel",
+        "south-africa",
+        "mystery"
+      ],
+      "headline": "The VELA Incident",
+      "subheadline": "Mysterious 'double flash' detected in the Indian Ocean strongly signifies a clandestine nuclear test.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1979-09-22T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Vela satellite anomalous flash graph"
+      },
+      "body": "An American Vela Hotel satellite specifically designed to detect nuclear detonations recorded an unmistakable 'double flash' over the remote Prince Edward Islands in the Indian Ocean. While an official US panel claimed it was a 'micrometeoroid' hitting the camera lens, the overwhelming consensus among global intelligence agencies is that it was an illegal, covert joint nuclear test conducted by Israel and apartheid South Africa."
+    },
+    {
+      "id": "art-gen-051",
+      "slug": "skripal-novichok-poisoning",
+      "category": "Internal Affairs",
+      "tags": [
+        "russia",
+        "gru",
+        "poison",
+        "uk"
+      ],
+      "headline": "The Skripal Novichok Poisoning",
+      "subheadline": "Russian military intelligence deploys military-grade nerve agent on British soil.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2018-03-04T00:00:00Z",
+      "read_time_minutes": 7,
+      "featured_image": {
+        "url": "",
+        "caption": "Hazmat suits in Salisbury"
+      },
+      "body": "Former Russian military officer and double agent Sergei Skripal, along with his daughter Yulia, were found unconscious on a park bench in Salisbury, England. British intelligence instantly identified the cause as Novichok, a lethal nerve agent developed in Soviet labs. Extensive CCTV and digital OSINT analysis traced the hit back to two specific GRU officers who smuggled the toxin in a modified Nina Ricci perfume bottle."
+    },
+    {
+      "id": "art-gen-052",
+      "slug": "assassination-jamal-khashoggi",
+      "category": "Internal Affairs",
+      "tags": [
+        "saudi-arabia",
+        "journalism",
+        "assassination"
+      ],
+      "headline": "Assassination of Jamal Khashoggi",
+      "subheadline": "A specialized Saudi hit team murders a dissident journalist inside their own consulate.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2018-10-02T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Khashoggi entering the consulate"
+      },
+      "body": "Jamal Khashoggi, a prominent Saudi dissident and Washington Post columnist, entered the Saudi consulate in Istanbul to obtain marriage documents and never exited. Turkish intelligence leaked gruesome audio transcripts demonstrating that a 15-man assassination squad ('Tiger Squad') had strangled Khashoggi and dismembered his body using a bone saw, allegedly ordered by the highest levels of the Saudi government."
+    },
+    {
+      "id": "art-gen-053",
+      "slug": "opm-data-breach",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "china",
+        "espionage"
+      ],
+      "headline": "The OPM Data Breach",
+      "subheadline": "Chinese hackers steal 21.5 million highly classified background investigation files.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2015-06-04T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "OPM logo and data breach graphics"
+      },
+      "body": "The U.S. Office of Personnel Management (OPM) announced a catastrophic cybersecurity failure where hackers exfiltrated the sensitive data of 21.5 million people. The stolen cache included deeply personal security clearance forms (SF-86) detailing financial history, family contacts, and 5.6 million fingerprints. U.S. intelligence attributed this unprecedented act of cyber espionage to the Chinese Ministry of State Security."
+    },
+    {
+      "id": "art-gen-054",
+      "slug": "equifax-hack",
+      "category": "Technology",
+      "tags": [
+        "cyber",
+        "data",
+        "finance",
+        "china"
+      ],
+      "headline": "The Equifax Hack",
+      "subheadline": "Financial data of 147 million Americans vanishes in an extreme corporate breach.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2017-09-07T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Equifax corporate logo matrix style"
+      },
+      "body": "By exploiting a known, unpatched vulnerability in an open-source web application (Apache Struts), four members of China's PLA infiltrated the network of Equifax, one of the three largest consumer credit reporting agencies. They spent 76 days inside the system mapping databases, ultimately exfiltrating the names, Social Security numbers, dates of birth, and addresses of nearly half the U.S. population."
+    },
+    {
+      "id": "art-gen-055",
+      "slug": "tokyo-subway-sarin-attack",
+      "category": "Internal Affairs",
+      "tags": [
+        "terrorism",
+        "japan",
+        "cult",
+        "chemical"
+      ],
+      "headline": "Tokyo Subway Sarin Gas Attack",
+      "subheadline": "A doomsday cult executes domestic chemical warfare on public transport.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1995-03-20T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Hazmat teams inspecting Tokyo trains"
+      },
+      "body": "In a highly coordinated domestic act of terrorism, members of the Aum Shinrikyo doomsday cult released lethal sarin nerve gas on three lines of the Tokyo Metro during rush hour. Using sharpened umbrella tips to puncture liquid plastic bags wrapped in newspaper, the attack killed 13 people, severely injured 50, and caused temporary vision issues to thousands more, fundamentally breaking the safety paradigm of Japan."
+    },
+    {
+      "id": "art-gen-056",
+      "slug": "911-intelligence-failure",
+      "category": "Global Events",
+      "tags": [
+        "terrorism",
+        "al-qaeda",
+        "usa",
+        "intelligence-failure"
+      ],
+      "headline": "September 11 Attacks",
+      "subheadline": "A catastrophic failure to connect the dots leads to the deadliest attack on US soil.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2001-09-11T00:00:00Z",
+      "read_time_minutes": 8,
+      "featured_image": {
+        "url": "",
+        "caption": "Twin towers burning in NY"
+      },
+      "body": "Despite numerous flashing red 'system blinking red' warnings—including the August 6 PDB warning 'Bin Ladin Determined To Strike in US', the Phoenix Memo regarding Middle Eastern men training at US flight schools, and fragmented CIA tracking of known operatives—infighting and failing to share intelligence between the CIA and FBI culminated in 19 al-Qaeda terrorists executing extreme devastating hijackings that killed 2,977 people."
+    },
+    {
+      "id": "art-gen-057",
+      "slug": "operation-gladio",
+      "category": "Military & Proxies",
+      "tags": [
+        "cia",
+        "nato",
+        "cold-war",
+        "europe"
+      ],
+      "headline": "Operation Gladio",
+      "subheadline": "NATO's 'Stay-Behind' secret paramilitary networks are exposed.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1990-10-24T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Gladio Italian hearings"
+      },
+      "body": "Italian Prime Minister Giulio Andreotti shocked Europe by publicly admitting the existence of 'Operation Gladio'. Orchestrated by the CIA, MI6, and NATO during the Cold War, this clandestine operation funded and armed secret 'stay-behind' armies across Western Europe. Designed initially to wage guerrilla warfare in case of a Soviet invasion, the networks were heavily implicated in domestic right-wing terrorism and false-flag operations."
+    },
+    {
+      "id": "art-gen-058",
+      "slug": "assassination-shinzo-abe",
+      "category": "Global Events",
+      "tags": [
+        "japan",
+        "assassination",
+        "security-failure"
+      ],
+      "headline": "Assassination of Shinzo Abe",
+      "subheadline": "Former Japanese Prime Minister killed by a homemade zip-gun.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2022-07-08T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Security scrambling in Nara"
+      },
+      "body": "While delivering a campaign speech in the city of Nara, former Japanese Prime Minister Shinzo Abe was struck by two lethal shots. The assassin, Tetsuya Yamagami, astonishingly bypassed elite security details using a crude, double-barreled shotgun constructed entirely from wood, pipe, and electrical tape. The extreme intelligence and security failure forced the immediate resignation of Japan's top police chief."
+    },
+    {
+      "id": "art-gen-059",
+      "slug": "echelon-spy-network-reveal",
+      "category": "Technology",
+      "tags": [
+        "nsa",
+        "five-eyes",
+        "surveillance",
+        "cyber"
+      ],
+      "headline": "The ECHELON Spy Network Leak",
+      "subheadline": "The global wiretapping system of the Five Eyes becomes public knowledge.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1999-02-22T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Massive Golf-ball radar domes at Menwith Hill"
+      },
+      "body": "Investigations by the European Parliament confirmed the sheer magnitude of 'ECHELON', an absolute worldwide signals intelligence (SIGINT) interception network operated primarily by the US NSA alongside the UK, Canada, Australia, and New Zealand (the Five Eyes). The program routinely intercepted billions of satellite phone calls, faxes, and emails leveraging advanced dictionary keyword scraping."
+    },
+    {
+      "id": "art-gen-060",
+      "slug": "defection-viktor-belenko",
+      "category": "Geopolitics",
+      "tags": [
+        "ussr",
+        "aviation",
+        "cia",
+        "defection"
+      ],
+      "headline": "Defection of Viktor Belenko",
+      "subheadline": "A Soviet pilot lands the hyper-advanced MiG-25 Foxbat in Japan.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1976-09-06T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "MiG-25 covered with tarps at Hakodate airport"
+      },
+      "body": "In a monumental stroke of luck and intelligence acquisition for the West, Soviet pilot Viktor Belenko defected by flying his highly classified MiG-25 'Foxbat' interceptor through Japanese radar screens, landing abruptly at a civilian airport in Hokkaido. US intelligence dismantled and studied every inch of the aircraft, discovering that the terrifyingly fast jet relied on heavy vacuum tubes and antiquated avionics."
+    },
+    {
+      "id": "art-gen-061",
+      "slug": "lavon-affair-egypt",
+      "category": "Internal Affairs",
+      "tags": [
+        "israel",
+        "egypt",
+        "false-flag",
+        "mossad"
+      ],
+      "headline": "The Lavon Affair (Operation Susannah)",
+      "subheadline": "A failed Israeli false-flag bombing operation in Egypt causes a national crisis.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1954-07-23T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "The captured cell in Cairo court"
+      },
+      "body": "A covert Israeli military intelligence operation in Egypt severely unraveled when an explosive prematurely detonated in an agent's pocket. The goal was to plant bombs in Egyptian, American, and British civilian targets and brilliantly blame the resulting chaos on the Muslim Brotherhood to retain British military presence in the Suez Canal. The embarrassing failure led directly to the resignation of Israeli Defense Minister Pinhas Lavon."
+    },
+    {
+      "id": "art-gen-062",
+      "slug": "attack-on-uss-cole",
+      "category": "Military & Proxies",
+      "tags": [
+        "navy",
+        "terrorism",
+        "al-qaeda",
+        "yemen"
+      ],
+      "headline": "Attack on the USS Cole",
+      "subheadline": "Al-Qaeda operatives blast a massive hole in an American guided-missile destroyer.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2000-10-12T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "The massive blast hole in the side of the USS Cole"
+      },
+      "body": "While the USS Cole was aggressively refueling in the Yemeni port of Aden, a small fiberglass boat filled heavily with C-4 explosives was steered straight into the port side of the destroyer. The resulting suicide detonation executed by Al-Qaeda killed 17 American sailors and injured 39, showcasing a dramatic escalation in asymmetrical warfare and severe maritime intelligence gaps."
+    },
+    {
+      "id": "art-gen-063",
+      "slug": "operation-mongoose-cuba",
+      "category": "Geopolitics",
+      "tags": [
+        "cia",
+        "cuba",
+        "assassination",
+        "kennedy"
+      ],
+      "headline": "Operation Mongoose",
+      "subheadline": "The bizarre and relentless CIA plots to assassinate Fidel Castro.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1961-11-30T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Fidel Castro smoking a cigar"
+      },
+      "body": "Authorized forcefully by President Kennedy after the Bay of Pigs fiasco, 'Operation Mongoose' was an intensive campaign of terrorist attacks and intelligence operations aimed at removing Fidel Castro from power in Cuba. The CIA reportedly floated over 600 incredibly bizarre assassination concepts, including explosive cigars, poisoned diving suits, mafia hitmen, and exploding seashells."
+    },
+    {
+      "id": "art-gen-064",
+      "slug": "st-petersburg-metro-bombing",
+      "category": "Global Events",
+      "tags": [
+        "terrorism",
+        "russia"
+      ],
+      "headline": "St. Petersburg Metro Bombing",
+      "subheadline": "A devastating shrapnel-filled suicide explosive detonates in a Russian train car.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2017-04-03T00:00:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Blown out train doors in St. Petersburg"
+      },
+      "body": "A suicide bomber, later identified as a Kyrgyz-born Russian citizen with ties to radical Islamist groups, detonated a horrific explosive device hidden firmly inside a briefcase while the train was traveling between Sennaya Ploshchad and Tekhnologichesky Institut stations. The attack resulted in 15 deaths and highlighted ongoing domestic terrorism vulnerabilities within the Russian Federation."
+    },
+    {
+      "id": "art-gen-065",
+      "slug": "world-trade-center-bombing-1993",
+      "category": "Internal Affairs",
+      "tags": [
+        "terrorism",
+        "usa",
+        "al-qaeda"
+      ],
+      "headline": "1993 World Trade Center Bombing",
+      "subheadline": "A rented Ryder van filled with 1,300 pounds of urea nitrate attempts to topple the Twin Towers.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1993-02-26T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Massive crater in the underground garage of the WTC"
+      },
+      "body": "Ramzi Yousef, heavily funded by Khalid Sheikh Mohammed, drove a rented Ryder van loaded with explosives into the underground parking garage of the North Tower. The terrorist plot violently intended to knock the North Tower straight into the South Tower, collapsing both. Although the blast failed to topple the structures, it left a massive 100-foot crater, killed 6 people, and foreshadowed 9/11."
+    },
+    {
+      "id": "art-gen-066",
+      "slug": "the-plame-affair",
+      "category": "Geopolitics",
+      "tags": [
+        "cia",
+        "scandal",
+        "leak",
+        "usa"
+      ],
+      "headline": "The Plame Affair",
+      "subheadline": "A classified CIA operative's identity is leaked intentionally to the press for political retaliation.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2003-07-14T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Valerie Plame testifies before congress"
+      },
+      "body": "In an explosive political scandal, the highly classified, covert identity of CIA officer Valerie Plame was leaked to journalist Robert Novak. The intelligence leak was widely considered a deliberate retaliation by senior George W. Bush administration officials against Plame's husband, Ambassador Joseph Wilson, who had publicly criticized and thoroughly debunked the claim that Iraq was purchasing yellowcake uranium from Niger."
+    },
+    {
+      "id": "art-gen-067",
+      "slug": "operation-mincemeat",
+      "category": "Military & Proxies",
+      "tags": [
+        "ww2",
+        "deception",
+        "mi5"
+      ],
+      "headline": "Operation Mincemeat",
+      "subheadline": "British intelligence uses a corpse laden with fake documents to totally deceive Hitler.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1943-04-30T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "The body of 'Major William Martin' washing ashore"
+      },
+      "body": "As the Allies prepared heavily to fiercely invade Sicily, MI5 launched an incredibly grim deception. They acquired the body of a deceased vagrant, dressed him as a 'Major William Martin' of the Royal Marines, and attached a briefcase filled extensively with fake top-secret correspondence suggesting a massive upcoming invasion of Greece and Sardinia. The body was dropped off the coast of Spain, heavily fooling the German high command into redirecting their panzer divisions."
+    },
+    {
+      "id": "art-gen-068",
+      "slug": "sinking-of-lusitania-intel",
+      "category": "Global Events",
+      "tags": [
+        "ww1",
+        "intelligence",
+        "naval",
+        "usa"
+      ],
+      "headline": "Intelligence & The Sinking of the Lusitania",
+      "subheadline": "Did British intelligence intentionally allow a passenger liner to sail into a U-boat swarm?",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1915-05-07T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Newspaper headline covering the sinking"
+      },
+      "body": "The RMS Lusitania was brutally torpedoed by a German U-boat off the coast of Ireland, killing heavily over 1,100 civilian passengers, including 128 Americans. Historical debates significantly surround whether British Admiralty 'Room 40' possessed extensive decrypted intelligence on the U-boat's exact location but deliberately withheld a military escort, hoping an attack would decisively force the US into the First World War."
+    },
+    {
+      "id": "art-gen-069",
+      "slug": "assassination-franz-ferdinand",
+      "category": "Global Events",
+      "tags": [
+        "ww1",
+        "assassination",
+        "black-hand"
+      ],
+      "headline": "Assassination of Archduke Franz Ferdinand",
+      "subheadline": "The Black Hand secret society sparks the first World War.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1914-06-28T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Gavrilo Princip being arrested"
+      },
+      "body": "In Sarajevo, 19-year-old Gavrilo Princip of the Serbian secret military society 'The Black Hand' assassinated Archduke Franz Ferdinand of Austria. After an initial bomb attempt violently failed earlier that morning, Princip astonishingly encountered the Archduke's car stalled right outside a deli. This single, highly chaotic intelligence failure directly triggered a rigid system of alliances that uncontrollably launched WW1."
+    },
+    {
+      "id": "art-gen-070",
+      "slug": "yom-kippur-spy-in-the-trunk",
+      "category": "Geopolitics",
+      "tags": [
+        "spy",
+        "mossad",
+        "egypt",
+        "intelligence"
+      ],
+      "headline": "The 'Spy in the Trunk' Scandal",
+      "subheadline": "Mossad operatives kidnap an Egyptian spy on European soil in a massive intelligence blunder.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "1964-11-17T00:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Customs opening the trunk in Rome"
+      },
+      "body": "Two Mossad operatives intercepted and heavily drugged Mordechai Louk, an Israeli defector passing secrets directly to Egyptian intelligence. They brutally stuffed him completely unconscious inside a specialized, custom-built diplomatic trunk in Rome intended heavily for Cairo. However, Italian customs officials heard noises, opened the massive crate, and freed Louk, heavily burning diplomatic relations."
+    },
+    {
+      "id": "art-user-001",
+      "slug": "oscars-2025-winners",
+      "category": "Global Events",
+      "tags": [
+        "entertainment",
+        "oscars",
+        "film",
+        "hollywood"
+      ],
+      "headline": "Oscars 2025 Winners: Anora, Adrien Brody, Mikey Madison",
+      "subheadline": "The 97th Oscars celebrated the year's best films, with 'Anora' taking the top prize.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-03-03T04:00:00Z",
+      "read_time_minutes": 4,
+      "featured_image": {
+        "url": "",
+        "caption": "Oscars 2025"
+      },
+      "body": "At the 97th Academy Awards hosted by Conan O'Brien, 'Anora' won Best Picture. Adrien Brody was awarded Best Actor for his role in 'The Brutalist', while Kieran Culkin took home Best Supporting Actor for 'A Real Pain'. Mikey Madison won Best Actress for her performance in 'Anora'."
+    },
+    {
+      "id": "art-user-002",
+      "slug": "fda-approves-neffy",
+      "category": "Technology",
+      "tags": [
+        "health",
+        "fda",
+        "allergy",
+        "innovation"
+      ],
+      "headline": "FDA Approves Neffy: The First Needle-Free Epinephrine Nasal Spray for Kids",
+      "subheadline": "A major breakthrough in allergy treatment as the FDA approves a needle-free alternative.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-08-15T10:00:00Z",
+      "read_time_minutes": 3,
+      "featured_image": {
+        "url": "",
+        "caption": "Neffy nasal spray"
+      },
+      "body": "For the first time in over three decades, parents of children with severe food allergies have a new, needle-free option. The FDA has approved Neffy, a prescription nasal spray that delivers epinephrine quickly and effectively to halt severe allergic reactions."
+    },
+    {
+      "id": "art-user-003",
+      "slug": "google-turboquant-gemma-4",
+      "category": "Technology",
+      "tags": [
+        "ai",
+        "google",
+        "machine-learning"
+      ],
+      "headline": "Google Unveils TurboQuant and Gemma 4 AI Models at ICLR 2026",
+      "subheadline": "Google significantly reduces memory overhead for large AI models with TurboQuant.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2026-04-02T14:30:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Google AI presentation"
+      },
+      "body": "Google's research team has unveiled TurboQuant at the ICLR 2026 conference. This breakthrough algorithm uses PolarQuant vector rotation and Quantized Johnson-Lindenstrauss compression to minimize KV cache bottlenecks. Concurrently, Google launched Gemma 4, an open AI model designed for agentic workflows."
+    },
+    {
+      "id": "art-user-004",
+      "slug": "sudan-civil-war-third-year",
+      "category": "Geopolitics",
+      "tags": [
+        "sudan",
+        "war",
+        "africa",
+        "humanitarian"
+      ],
+      "headline": "Death and Displacement: Sudan's Grueling Civil War Enters its Third Year",
+      "subheadline": "The ongoing conflict continues to cause massive devastation.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-04-14T22:00:00Z",
+      "read_time_minutes": 6,
+      "featured_image": {
+        "url": "",
+        "caption": "Khartoum destruction"
+      },
+      "body": "The North African nation of Sudan remains deeply torn by a devastating civil war that erupted in 2023. As the grueling conflict continues into 2025, humanitarian organizations report an unprecedented level of death and internal displacement, exacerbating the regional crisis."
+    },
+    {
+      "id": "art-user-005",
+      "slug": "friedrich-merz-chancellor",
+      "category": "Geopolitics",
+      "tags": [
+        "germany",
+        "politics",
+        "europe"
+      ],
+      "headline": "Friedrich Merz Sworn In as the New Chancellor of Germany",
+      "subheadline": "Leader of the Christian Democratic Union becomes Germany's new Chancellor.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-05-06T12:00:00Z",
+      "read_time_minutes": 4,
+      "featured_image": {
+        "url": "",
+        "caption": "Merz at the Bundestag"
+      },
+      "body": "On May 6, 2025, Friedrich Merz was officially sworn in as the Chancellor of Germany. A lawyer and long-time politician, Merz has led the Christian Democratic Union (CDU) since 2022 and now takes the helm of the German government amidst European political shifts."
+    },
+    {
+      "id": "art-user-006",
+      "slug": "fda-approves-lynkuet",
+      "category": "Technology",
+      "tags": [
+        "health",
+        "fda",
+        "women",
+        "medicine"
+      ],
+      "headline": "FDA Approves Lynkuet, a Non-Hormonal Revolution",
+      "subheadline": "A new daily pill targets temperature-regulating neurons for menopause care.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-10-10T09:00:00Z",
+      "read_time_minutes": 4,
+      "featured_image": {
+        "url": "",
+        "caption": "Medical research facility"
+      },
+      "body": "In a major advancement for women's health, the FDA approved Lynkuet (elinzanetant), a non-hormonal treatment for menopause symptoms. This daily pill directly targets temperature-regulating neurons in the hypothalamus, offering a safe alternative for women unable to use traditional hormone therapy."
+    },
+    {
+      "id": "art-user-007",
+      "slug": "luke-littler-darts-champion",
+      "category": "Global Events",
+      "tags": [
+        "sports",
+        "darts",
+        "uk"
+      ],
+      "headline": "Luke Littler Crowned 2025 PDC World Darts Champion",
+      "subheadline": "Darts prodigy wins the prestigious 2025 PDC Championship.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-01-04T23:30:00Z",
+      "read_time_minutes": 3,
+      "featured_image": {
+        "url": "",
+        "caption": "Littler lifting trophy"
+      },
+      "body": "The 2025 PDC World Darts Championship concluded with an incredible victory by Luke Littler. The young sensation dominated the international stage, officially cementing his name in sports history."
+    },
+    {
+      "id": "art-user-008",
+      "slug": "pope-leo-xiv-elected",
+      "category": "Global Events",
+      "tags": [
+        "vatican",
+        "religion",
+        "pope"
+      ],
+      "headline": "Cardinal Robert Francis Prevost Elected Pope Leo XIV",
+      "subheadline": "History is made as the Roman Catholic Church elects the first American Pope.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-05-08T18:15:00Z",
+      "read_time_minutes": 5,
+      "featured_image": {
+        "url": "",
+        "caption": "Pope Leo XIV at St. Peter's Basilica"
+      },
+      "body": "On May 8, 2025, the papal conclave elected Cardinal Robert Francis Prevost as the new Pope. Taking the name Leo XIV, he becomes the 267th pontiff and the first American to ever lead the Roman Catholic Church."
+    },
+    {
+      "id": "art-user-009",
+      "slug": "firefly-blue-ghost-landing",
+      "category": "Technology",
+      "tags": [
+        "space",
+        "moon",
+        "aerospace"
+      ],
+      "headline": "Firefly Aerospace's Blue Ghost Makes Historic Lunar Landing",
+      "subheadline": "Commercial lunar lander successfully touches down near Mare Crisium.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-07-20T20:00:00Z",
+      "read_time_minutes": 4,
+      "featured_image": {
+        "url": "",
+        "caption": "Lunar surface approach"
+      },
+      "body": "Marking a significant milestone in the new space race, Firefly Aerospace's Blue Ghost executed a successful soft landing on the Moon's surface near Mare Crisium in 2025. This achievement underscores the growing capabilities of commercial spaceflight."
+    },
+    {
+      "id": "art-user-010",
+      "slug": "jannik-sinner-aus-open-2025",
+      "category": "Global Events",
+      "tags": [
+        "sports",
+        "tennis",
+        "australia"
+      ],
+      "headline": "Jannik Sinner Wins 2025 Australian Open",
+      "subheadline": "Italian tennis star claims victory down under.",
+      "author": {
+        "id": "auth-01",
+        "name": "System Archiver",
+        "title": "Automated OSINT Collector"
+      },
+      "published_at": "2025-01-26T14:00:00Z",
+      "read_time_minutes": 3,
+      "featured_image": {
+        "url": "",
+        "caption": "Sinner with the trophy"
+      },
+      "body": "Jannik Sinner demonstrated outstanding form at the 2025 Australian Open, taking home the championship title. This victory further solidifies his position as one of the top players in international tennis."
+    }
+  ]
+}
